@@ -1,18 +1,17 @@
 {
   "name": "dwarbot",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
+  "engines": {
+       "node": ">=8.4.*",
+       "npm": ">=5.6"
+   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "chrome-remote-interface": "^0.25.5",
     "opencv": "^6.0.0",
     "puppeteer": "^1.2.0",
     "xml-parse": "^0.3.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"

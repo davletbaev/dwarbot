@@ -392,7 +392,7 @@ class Bot extends EventEmitter {
         let level = attr.level;
         let inBattle = attr.fight_id;
 
-        if (inBattle == 0 && (name.indexOf('вожак') > -1)) { // l || level == (this.level - 1)
+        if (inBattle == 0 && (name.indexOf('паучиха') > -1)) { // l || level == (this.level - 1)
           writeLog(`attacking ${name}[${level}]`);
           let fightUrl = `http://oldwar.net/action_run.php?code=ATTACK_BOT&url_success=fight.php?${Math.floor(Math.random()*1000000000)}&url_error=hunt.php&bot_id=${id}`;
           let entryUrl = 'http://oldwar.net/entry_point.php?object=common&action=action&json_mode_on=1';
